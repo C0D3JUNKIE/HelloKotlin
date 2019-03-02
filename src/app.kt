@@ -50,5 +50,31 @@ fun main(args: Array<String>) {
     println("Basic Operations practice example 5 with Elvis")
     var nullTest: List<Int?> = listOf(null, 1, 3)
     println(nullTest?.indexOf(3) ?:0)
-
+    println()
+//    Some booleans and control structures
+    val fish = "fish"
+    val plant = "plant"
+    println()
+    println("Compare fish to plant")
+    println(fish==plant)
+    println("Compare fish to fish")
+    println(fish==fish)
+    println("Fish is not a plant")
+    println(fish!=plant)
+    println()
+    val numberOfFish = 50
+    val numberOfPlants = 23
+    println()
+    println("If else structure")
+    println("Are there more fish than plants?")
+    if(numberOfFish > numberOfPlants) println("Yes, you have a good ratio")
+    else
+        println("No, there are way too many plants around here and not enough fish")
+    println()
+    println("When is like a Java switch")
+    when(numberOfFish){
+        0 -> println("Zero there are no fish!")
+        50 -> println("Fifty, Your tank is full!")
+        else -> println("Goldielocks, this is just right!")
+    }
 }
