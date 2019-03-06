@@ -4,4 +4,8 @@
 
 ### Lesson Break Down
 
-#### Lesson One -
+#### Lesson One - Kotlin Basics
+
+#### Lesson Two - Have Fun with Functions
+
+#### Lesson Three - Hell if I know
